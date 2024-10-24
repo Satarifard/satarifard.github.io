@@ -3783,3 +3783,15 @@ input, select, textarea {
 			}
 
 		}
+.image-circle {
+  display: inline-block; /* Ensures the element is line-level but can apply padding and borders */
+  border-radius: 50%;    /* Makes the outer edge of the image circular */
+  border: 5px solid white; /* Adds a white border around the image */
+  overflow: hidden;      /* Ensures nothing extends beyond the border radius */
+}
+
+.image-circle img {
+  display: block;        /* Removes any extra space below the image */
+  width: 100%;           /* Makes the image scale to the parent's dimensions */
+  height: auto;          /* Keeps image aspect ratio intact */
+}
