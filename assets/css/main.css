@@ -3795,3 +3795,16 @@ input, select, textarea {
   width: 100%;           /* Makes the image scale to the parent's dimensions */
   height: auto;          /* Keeps image aspect ratio intact */
 }
+
+
+.publications-list {
+    text-align: left; /* Aligns the list items to the left */
+    list-style: none; /* Removes bullet points */
+    padding-left: 0;  /* Removes left padding */
+    margin-left: 0;   /* Removes left margin */
+}
+
+.publications-list li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
